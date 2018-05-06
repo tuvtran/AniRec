@@ -1,7 +1,7 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://github.com/tuvtran/AniRec"
 verify_ssl = true
-name = "pypi"
+name = "AniRec"
 
 [dev-packages]
 
