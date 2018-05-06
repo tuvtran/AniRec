@@ -12,6 +12,7 @@ pandas = "*"
 flask = "*"
 scipy = "*"
 lightfm = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.6"

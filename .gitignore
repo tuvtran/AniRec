@@ -105,3 +105,4 @@ venv.bak/
 rating.csv
 anime.csv
 *.pkl
+.vscode/
