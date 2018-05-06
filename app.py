@@ -64,6 +64,7 @@ if app.config['DEBUG']:
     print(type(model))
 
 
+# TODO: enable enter partial name with rating
 def _create_new_user_vect(name_dict, rating_dict):
     """
     This function takes a dictionary of the following
@@ -99,8 +100,10 @@ def _recommend_new_user(
 
 @app.route('/')
 def index() -> str:
+    # TODO: add welcome page
     return render_template('index.html')
 
+# TODO: add form page which lets users enter their favorite anime
 
 @app.route('/recommend_new', methods=['GET', 'POST'])
 def recommend_new() -> object:
@@ -108,6 +111,7 @@ def recommend_new() -> object:
     This function handles the event when a user submits
     their rating for anime
     """
+    # TODO: split request into POST and REQUEST for smoother REST interaction
     return jsonify({'result': 'OK'})
 
 
